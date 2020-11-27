@@ -1,8 +1,8 @@
 var text = '';
-document.querySelectorAll('p')
+document.querySelectorAll('div')
     .forEach(function(e)
     {
-        if(e.parentElement.tagName == "PRE")
+        
             text += e.textContent
     });
 text = text.split("+").join("");
